@@ -1,4 +1,5 @@
 # Disjoint-set (or Union-Find)
+```python
 class UF:
     def __init__(self, n):
         self.parent = [i for i in range(n)]
@@ -27,3 +28,4 @@ class UF:
         else:
             self.parent[p2] = p1
             self.size[p1] += self.size[p2]
+```
