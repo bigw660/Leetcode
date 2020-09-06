@@ -1,3 +1,4 @@
+```python
 class UF:
     def __init__(self, n):
         self.parent = [i for i in range(n)]
@@ -59,6 +60,6 @@ class Solution:
             if not uf.isConnected(i, i+1):
                 return False
         return True  
-
+```
 Time complexity: O(N)
 Space complexity: O(N)
